@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<addon id="plugin.video.commercials" name="Commercials" version="0.0.1" provider-name="ayaankhan755">
+
+ <requires>
+   <import addon="xbmc.python" version="2.25.0"/>
+ </requires>
+
+  <extension point="xbmc.python.pluginsource" library="main.py">
+
+        <provides>video</provides>
+
+  </extension>
+
+  <extension point="xbmc.addon.metadata">
+
+    <summary lang="en"></summary>
+
+    <description lang="en_GB">Addon has a list of Commercials From The 70's, 80's and 90's</description>
+    <platform>all</platform>
+
+  </extension>
+
+</addon>
